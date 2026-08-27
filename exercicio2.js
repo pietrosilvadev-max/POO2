@@ -23,9 +23,9 @@ class Livro{
             console.log("Livro devolvido!");
     }
 }
-let livro1 = new Livro("Harry Potter", "J.K. Rowling", 1997, true);
-let livro2 = new Livro("O Hobbit", "J.R.R. Tolkien", 1937, true);
-let livro3 = new Livro("Dom Casmurro", "Machado de Assis", 1899, true);
+var livro1 = new Livro("Harry Potter", "J.K. Rowling", 1997, true);
+var livro2 = new Livro("O Hobbit", "J.R.R. Tolkien", 1937, true);
+var livro3 = new Livro("Dom Casmurro", "Machado de Assis", 1899, true);
 
 livro1.apresentar();
 livro2.apresentar();

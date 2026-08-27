@@ -5,11 +5,9 @@ class Veiculo {
         this.ano = ano;
         this.velocidade = velocidade;
     }
-
     acelerar() {
         this.velocidade += 10;
     }
-
     frear() {
         this.velocidade -= 10;
 
@@ -17,7 +15,6 @@ class Veiculo {
             this.velocidade = 0;
         }
     }
-
     mostrarDados() {
         console.log("Marca: " + this.marca);
         console.log("Modelo: " + this.modelo);
@@ -27,9 +24,9 @@ class Veiculo {
     }
 }
 
-let veiculo1 = new Veiculo("Toyota", "Corolla", 2022, 50);
-let veiculo2 = new Veiculo("Honda", "Civic", 2023, 60);
-let veiculo3 = new Veiculo("Ford", "Mustang", 2020, 80);
+var veiculo1 = new Veiculo("Toyota", "Corolla", 2022, 50);
+var veiculo2 = new Veiculo("Honda", "Civic", 2023, 60);
+var veiculo3 = new Veiculo("Ford", "Mustang", 2020, 80);
 
 veiculo1.mostrarDados();
 console.log("Velocidade antes: " + veiculo1.velocidade);
